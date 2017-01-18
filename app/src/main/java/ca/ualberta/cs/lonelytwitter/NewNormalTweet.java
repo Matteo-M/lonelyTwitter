@@ -15,4 +15,13 @@ public class NewNormalTweet extends Tweet {
     public NewNormalTweet(String message) throws TweetTooLongException {
         super(message);
     }
+
+    public Boolean isImportant() {
+        return Boolean.FALSE;
+
+    }
+
+
 }
+
+
